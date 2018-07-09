@@ -4,26 +4,33 @@
          <link rel="stylesheet" href="index.css">
      </head>
      <body>
+      <h1>Luke's to do list</h1>
          <ul>
              <li>
               <input type="checkbox">
-              <a href= "show.html">do homework 45 minutes</a>
-              </li>
-             <li>
-              <input type="checkbox">
-              text grandma 15 minutes
+              <a href= "show.html"> do homework</a>
+             <span class= "time-estimate"> 45 minutes </span>
               </li>
               <li>
               <input type="checkbox">
-              feed dog 15 minutes
+              text grandma 
+             <span class= "time-estimate"> 15 minutes</span>
+              </li>
+              <li>
+              <input type="checkbox">
+              feed dog 
+             <span class= "time-estimate">5 minutes</span>
               </li>
              <li>
               <input type="checkbox">
-              see teacher after school 30 minutes
+              see teacher after school 
+              <span class= "time-estimate">30 minutes</span>
               </li>
          </ul>
+         <div>
          <input type= "text" placeholder= "add to do">
-         <input type= "number" placeholder= "add pomodoro">
-         <input type= "submit" value= "add to do">
+         <input type= "number" placeholder= "add approximate length">
+         <input id="add-to-do-button" type= "submit" value= "add to do">
+         </div>
     </body>
 </html>
