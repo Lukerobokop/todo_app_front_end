@@ -2,6 +2,8 @@
      <head>
          <title>to do list</title>
          <link rel="stylesheet" href="index.css">
+         <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+          <script type= "text/javascript" src="index.js"></script>
      </head>
      <body>
       <h1>Luke's to do list</h1>
@@ -21,16 +23,12 @@
               feed dog 
              <span class= "time-estimate">5 minutes</span>
               </li>
-             <li>
-              <input type="checkbox">
-              see teacher after school 
-              <span class= "time-estimate">30 minutes</span>
-              </li>
+             <li><input type="checkbox">see teacher after school <span class= "time-estimate">30 minutes</li>
          </ul>
          <div>
-         <input type= "text" placeholder= "add to do">
-         <input type= "number" placeholder= "add approximate length">
-         <input id="add-to-do-button" type= "submit" value= "add to do">
+         <input id= "Add-todo-textbox" type= "text" placeholder= "add to do">
+         <input id= "add-length-textbox" type= "number" placeholder= "add approximate length">
+         <input id="add-to-do-button" type= "submit" value= "add">
          </div>
     </body>
 </html>
